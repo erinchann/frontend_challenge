@@ -1,0 +1,95 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../Fonts/SF-Pro-Text-Regular.otf);
+  font-family: SfPro;
+}
+
+body {
+  /* background-color: #E2E2E2; */
+  font-family: SfPro;
+  font-size: 10px;
+  margin: 1%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+
+}
+
+.title {
+  margin: 0 auto;
+  padding: 20px 0 16px 10px;
+  /* position: fixed; */
+  width: 420px;
+  background-color: #E2E2E2;
+  font-size: 3em;
+  font-weight:500;
+}
+
+.bus-table {
+  width: 100%;
+  /* background-color: #FAFAFA; */
+  border: 10px 5px 0px 5px #E2E2E2;
+} /*how can I make the table background color (#FAFAFA) different from the body background color (#E2E2E2)?*/
+
+.bus-data {
+  border-bottom: 1px solid #E2E2E2;
+  text-indent: 20px;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* bus information */
+.content  {
+  /* display: inline-block; */
+  width: 52%;
+  vertical-align: bottom;
+}
+
+.content h1 {
+  font-size: 2.2em;
+  line-height: 1.4;
+}
+
+.content h3 {
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+/* eta information */
+.arrow-right {
+  display: inline-block;
+  text-align: right;
+  /* padding-right: 70px; */ /*not too sure why these arrows are beyond the width of the screen*/
+  font-weight: 100; /*how can I make the arrow weight lower?*/
+  width: .3%;
+  float: right;
+  vertical-align: bottom;
+  padding-top: 15px;
+}
+
+.eta {
+  text-align: right;
+  /* padding-right: 20px; */
+  width: 70%;
+  /* float: right; */
+  display: inline-block;
+  vertical-align: bottom;
+  text-indent: 37px;
+  padding-top: 8px;
+}
+
+.eta h1 {
+  font-size: 2em
+}
+
+.eta h3 {
+  font-size: 1.2em;
+}
