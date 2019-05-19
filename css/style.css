@@ -17,12 +17,12 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-
+  background-color: #E2E2E2;
 }
 
 .title {
   margin: 0 auto;
-  padding: 20px 0 16px 10px;
+  padding: 20px 0 16px 20px;
   /* position: fixed; */
   width: 420px;
   background-color: #E2E2E2;
@@ -31,14 +31,15 @@ body {
 }
 
 .bus-table {
-  width: 100%;
+  width: 95%;
   /* background-color: #FAFAFA; */
   border: 10px 5px 0px 5px #E2E2E2;
+  margin: 0 auto;
 } /*how can I make the table background color (#FAFAFA) different from the body background color (#E2E2E2)?*/
 
 .bus-data {
   border-bottom: 1px solid #E2E2E2;
-  text-indent: 20px;
+  text-indent: 15px;
   background-color: #FAFAFA;
   display: flex;
   justify-content: space-between;
@@ -49,7 +50,7 @@ body {
 /* bus information */
 .content  {
   /* display: inline-block; */
-  width: 52%;
+  width: 50%;
   vertical-align: bottom;
 }
 
@@ -69,16 +70,17 @@ body {
   text-align: right;
   /* padding-right: 70px; */ /*not too sure why these arrows are beyond the width of the screen*/
   font-weight: 100; /*how can I make the arrow weight lower?*/
-  width: .3%;
+  width: .1%;
   float: right;
   vertical-align: bottom;
   padding-top: 15px;
+  padding-right: 60px;
 }
 
 .eta {
   text-align: right;
   /* padding-right: 20px; */
-  width: 70%;
+  width: 62%;
   /* float: right; */
   display: inline-block;
   vertical-align: bottom;
