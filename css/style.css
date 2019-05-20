@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.top {
+  width: 420px;
+}
+
 body {
   font-family: SfPro;
   font-size: 10px;
@@ -16,32 +20,68 @@ body {
   background-color: #E2E2E2;
 }
 
+/* navigation */
 nav {
-  width: 420px;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-top: 8px;
 }
 
+/* navigation - back to home */
+.back{
+  display: inline-block;
+  float: left;
+  width: 33%;
+}
+
+.home {
+  display: inline-block;
+  width: 15%;
+  text-indent: 5px;
+}
+
+.left-arrow {
+  display: inline-block;
+  float: left;
+  text-indent: 8px;
+}
+
+/* navigation - station name*/
+.station {
+  display: inline-block;
+  text-align: center;
+}
+
+/* navigation - more */
+.more {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  padding-right: 15px;
+}
+
+/* table title */
 .title {
   margin: 0 auto;
   padding: 20px 0 16px 20px;
   width: 420px;
   background-color: #E2E2E2;
   font-size: 3em;
-  font-weight:500;
+  font-weight:600
 }
 
+/* bus timetable */
 .bus-table {
   width: 95%;
-
   border: 10px 5px 0px 5px #E2E2E2;
   margin: 0 auto;
 }
 
 .bus-data {
   border-bottom: 1px solid #E2E2E2;
-  text-indent: 15px;
+  text-indent: 5px;
   background-color: #FAFAFA;
   padding: 10px 0;
-  width: 400px;
 }
 
 /* bus information */
@@ -73,7 +113,6 @@ nav {
 
 .eta {
   display: inline-block;
-  padding-top: 12px;
 }
 
 .arrow-right {
@@ -84,9 +123,12 @@ nav {
 }
 
 .eta h1 {
-  font-size: 2em
+  font-size: 2.2em;
+  line-height: 1.4;
 }
 
 .eta h3 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  line-height: 1.4;
+  color: #646464;
 }
