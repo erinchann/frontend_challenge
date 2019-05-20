@@ -2,28 +2,27 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  src: url(../Fonts/SF-Pro-Text-Regular.otf);
-  font-family: SfPro;
-}
-
 body {
   font-family: SfPro;
   font-size: 10px;
   margin: 1%;
   color: #343434;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  max-width: 420px;
   background-color: #E2E2E2;
+}
+
+nav {
+  width: 420px;
 }
 
 .title {
   margin: 0 auto;
   padding: 20px 0 16px 20px;
-  /* position: fixed; */
   width: 420px;
   background-color: #E2E2E2;
   font-size: 3em;
@@ -32,25 +31,23 @@ body {
 
 .bus-table {
   width: 95%;
-  /* background-color: #FAFAFA; */
+
   border: 10px 5px 0px 5px #E2E2E2;
   margin: 0 auto;
-} /*how can I make the table background color (#FAFAFA) different from the body background color (#E2E2E2)?*/
+}
 
 .bus-data {
   border-bottom: 1px solid #E2E2E2;
   text-indent: 15px;
   background-color: #FAFAFA;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 0;
+  width: 400px;
 }
 
 /* bus information */
 .content  {
-  /* display: inline-block; */
-  width: 50%;
+  display: inline-block;
+  width: 45%;
   vertical-align: bottom;
 }
 
@@ -62,30 +59,28 @@ body {
 .content h3 {
   font-size: 1.3em;
   line-height: 1.4;
+  color: #646464;
 }
 
 /* eta information */
-.arrow-right {
+.eta-more {
   display: inline-block;
   text-align: right;
-  /* padding-right: 70px; */ /*not too sure why these arrows are beyond the width of the screen*/
-  font-weight: 100; /*how can I make the arrow weight lower?*/
-  width: .1%;
   float: right;
-  vertical-align: bottom;
-  padding-top: 15px;
-  padding-right: 60px;
+  vertical-align: baseline;
+  width: 47%
 }
 
 .eta {
-  text-align: right;
-  /* padding-right: 20px; */
-  width: 62%;
-  /* float: right; */
   display: inline-block;
-  vertical-align: bottom;
-  text-indent: 37px;
-  padding-top: 8px;
+  padding-top: 12px;
+}
+
+.arrow-right {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 20px;
 }
 
 .eta h1 {
