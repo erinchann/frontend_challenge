@@ -2,6 +2,6 @@
 
 This screen was developed for a project, in which I was also responsible for the user research and user design.
 
-The problem was that there were multiple lines serving one bus stop, and this rapid expansion created confusion for users.
+The problem presented was that, due to expansion, a city faced an issue in their public transit system. They found that users were confused as there were buses that service multiple stops and stops that served multiple lines. The scree below was my solution to this problem.
 
 ![project image](images/busy-bus-image.png)
